@@ -2871,12 +2871,14 @@ label.error {
   .top-bar .name {
     height: 45px;
     margin: 0;
-    font-size: 16; }
+    font-size: 36px; }
     .top-bar .name h1 {
+		text-align: center;
       line-height: 45px;
       font-size: 1.0625em;
       margin: 0; }
       .top-bar .name h1 a {
+		  text-align: center;
         font-weight: bold;
         color: white;
         width: 50%;
@@ -2935,6 +2937,7 @@ label.error {
   -moz-transition: left 300ms ease-out;
   transition: left 300ms ease-out; }
   .top-bar-section ul {
+	  
     width: 100%;
     height: auto;
     display: block;
@@ -2949,6 +2952,7 @@ label.error {
     height: 1px;
     width: 100%; }
   .top-bar-section ul li > a {
+	  
     display: block;
     width: 100%;
     color: white;
