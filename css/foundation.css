@@ -22,16 +22,47 @@ body {
   cursor: default; }
 
 #featured{
-	height: 500px;
+	width: 50%;
+	height: 400px;
 	margin-bottom: 20px;
+	margin-left:0px;
+	float: left;
 }
+ #opentxt {
+	width: 50%;
+	height: 400px;
+	margin-bottom: 20px;
+	float: left; 
+
+ }
+ 
+.conflict {
+	text-align: center;
+	font-weight: bold;
+	 width: 100%;
+  margin:0 auto;
+  max-width: 62.5em;
+  *zoom: 1; 
+}
+
 
 #slider{
 	width: 100%;
-	height: 500px;
-	border: 1px solid black;
+	padding: 10px;
+	border: .5px solid #CCC;
 	
 }
+
+.previous{
+	float: left;
+	
+}
+
+.next{
+	float: right;
+	
+}
+
 .banner { position: relative; overflow: auto; }
     .banner li { list-style: none; }
         .banner ul li { float: left; }
@@ -148,7 +179,8 @@ select {
   padding-left: 0.9375em;
   padding-right: 0.9375em;
   width: 100%;
-  float: left; }
+  float: left; 
+  }
 
 @media only screen {
   .column,
@@ -311,7 +343,9 @@ select {
 
   .large-12 {
     position: relative;
-    width: 100%; }
+    width: 100%; 
+
+	}
 
   .row .large-offset-0 {
     position: relative;
